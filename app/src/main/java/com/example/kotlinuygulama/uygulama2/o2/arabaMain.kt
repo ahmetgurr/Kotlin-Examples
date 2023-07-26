@@ -5,7 +5,7 @@ fun main() {
     arac.kalkis()
 
     val otomobil = Otomobil(120, 7.0, 2,200.0)
-    println("Otomobilin hızı:${otomobil.hiz} Bagaj Hacmi: ${otomobil.bagajHacm}, ve Kapi sayısı: ${otomobil.kapiSayisi}   ")
+    println("Otomobilin hızı:${otomobil.hiz} Bagaj Hacmi: ${otomobil.bagajHacm}, ve Kapi sayısı: ${otomobil.kapiSayisi} ")
     otomobil.kalkis()
     otomobil.kapiKitle()
     otomobil.bagajAc()
