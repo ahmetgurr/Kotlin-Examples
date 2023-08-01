@@ -5,7 +5,12 @@ fun main() {
     val top = toplamListe(liste)
 
     println(" liste toplam : $top")
+
+
+
 }
+
+
 
 fun toplamListe(list: List<Int>): Int {
     var top = 0
