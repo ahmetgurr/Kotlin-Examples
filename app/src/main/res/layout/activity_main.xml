@@ -6,13 +6,29 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="411dp"
+
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:background="#1F818E"
+        android:padding="16dp"
+        tools:ignore="MissingConstraints,NotSibling,UnknownId">
+
+        <TextView
+            android:layout_width="157dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bugün"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="68dp"
+            android:layout_height="39dp"
+            android:contentDescription="Sunny Weather"
+            android:src="@drawable/cloudy" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
